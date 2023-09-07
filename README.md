@@ -1,2 +1,5 @@
-# product-info-organizer
-GUI-based tool to organize products and their associated values, including parts needed to make those products (currently class-based without db)
+# inventory-manager
+
+Summary:
+GUI-based tool to organize product values and those of their associated parts, including: id, name, stock on-hand, minimum required, maximum capacity, and more.
+

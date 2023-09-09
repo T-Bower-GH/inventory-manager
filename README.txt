@@ -1,20 +1,41 @@
 Inventory Manager
 
-Description:
-The Inventory Manager is a JavaFX application designed to help users manage inventory data for parts and products. It provides a user-friendly interface for adding, modifying, and deleting parts and products, as well as the ability to associate multiple parts with products. The application also allows users to save and load their inventory data to/from JSON files.
+Table of Contents:
+Introduction
+Features
+Prerequisites
+Getting Started
+Installation
+Usage
+
+
+Introduction:
+The Inventory Manager Application is a JavaFX-based inventory management system designed to help businesses efficiently
+manage their inventory of parts and products. This application allows users to add, modify, and delete parts and
+products, search for specific items, and save their inventory data in JSON format.
 
 Features:
-Add Parts and Products: Easily add new parts and products to your inventory.
-Modify Existing Items: Update the details of existing parts and products.
-Delete Items: Remove parts and products from your inventory.
-Search Functionality: Quickly search for specific parts or products using the search bar.
-Association: Associate multiple parts with products, allowing for more detailed inventory tracking.
-Data Persistence: Save your inventory data to JSON files for future use.
-User-Friendly Interface: The application features an intuitive and user-friendly interface for efficient inventory management.
+User-friendly graphical user interface (GUI) for easy interaction.
+Add, modify, and delete parts and products.
+Search for parts and products by name or ID.
+Save and load inventory data in JSON format for data persistence.
+JavaFX for the GUI.
+JUnit 5 for testing.
+Maven for project management and build.
 
-Getting Started:
+Prerequisites:
+Java 11 or higher installed.
+Maven 3.6.x or higher installed.
+An integrated development environment (IDE) such as IntelliJ IDEA or Eclipse (optional).
+
+Quick Start (Running the Project Directly without Source Code):
 A JAR file is included via the following file path: out\artifacts\Inventory_Manager_jar.inventoryManager.jar
 Simply start the JAR file (You must have java on your computer), and the program will open to the main menu.
+
+Installation (For Developers):
+1. Clone the project repository: git clone https://github.com/T-Bower-GH/inventory-manager.git
+2. Open the project in your preferred IDE (e.g., IntelliJ IDEA).
+3. Build the project using Maven: mvn clean install
 
 Usage:
 Adding a Part or Product: Click the "Add" button under the appropriate table on the main menu.

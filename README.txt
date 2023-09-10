@@ -4,8 +4,8 @@ Table of Contents:
 Introduction
 Features
 Prerequisites
-Getting Started
-Installation
+Quick Start
+Installation for Developers
 Usage
 
 
@@ -32,7 +32,7 @@ Quick Start (Running the Project Directly without Source Code):
 A JAR file is included via the following file path: out\artifacts\Inventory_Manager_jar.inventoryManager.jar
 Simply start the JAR file (You must have java on your computer), and the program will open to the main menu.
 
-Installation (For Developers):
+Installation for Developers:
 1. Clone the project repository: git clone https://github.com/T-Bower-GH/inventory-manager.git
 2. Open the project in your preferred IDE (e.g., IntelliJ IDEA).
 3. Build the project using Maven: mvn clean install
